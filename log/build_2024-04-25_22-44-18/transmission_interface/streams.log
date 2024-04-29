@@ -1,0 +1,64 @@
+[0.105s] Invoking command in '/home/sr/sr_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sr/sr_ws/build/transmission_interface -- -j4 -l4
+[0.601s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.644s] [35m[1mConsolidate compiler generated dependencies of target transmission_interface[0m
+[0.677s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.868s] [ 13%] Built target gmock
+[0.967s] [ 21%] Built target gmock_main
+[1.122s] [ 39%] Built target transmission_interface
+[1.189s] [35m[1mConsolidate compiler generated dependencies of target test_four_bar_linkage_transmission[0m
+[1.194s] [35m[1mConsolidate compiler generated dependencies of target test_differential_transmission[0m
+[1.237s] [35m[1mConsolidate compiler generated dependencies of target test_simple_transmission[0m
+[1.355s] [35m[1mConsolidate compiler generated dependencies of target test_simple_transmission_loader[0m
+[1.443s] [ 47%] Built target test_differential_transmission
+[1.468s] [ 56%] Built target test_simple_transmission
+[1.517s] [ 65%] Built target test_four_bar_linkage_transmission
+[1.569s] [35m[1mConsolidate compiler generated dependencies of target test_four_bar_linkage_transmission_loader[0m
+[1.611s] [35m[1mConsolidate compiler generated dependencies of target test_differential_transmission_loader[0m
+[1.620s] [ 73%] Built target test_simple_transmission_loader
+[1.670s] [35m[1mConsolidate compiler generated dependencies of target test_utils[0m
+[1.749s] [ 82%] Built target test_four_bar_linkage_transmission_loader
+[1.801s] [ 91%] Built target test_differential_transmission_loader
+[1.827s] [100%] Built target test_utils
+[1.882s] Invoked command in '/home/sr/sr_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sr/sr_ws/build/transmission_interface -- -j4 -l4
+[2.308s] Invoking command in '/home/sr/sr_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sr/sr_ws/build/transmission_interface
+[2.366s] -- Install configuration: ""
+[2.371s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include
+[2.372s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface
+[2.372s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[2.374s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[2.375s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+[2.380s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+[2.380s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[2.381s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[2.381s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[2.389s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+[2.390s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[2.391s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+[2.393s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[2.405s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[2.407s] -- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[2.412s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/ros2_control_plugins.xml
+[2.420s] -- Installing: /home/sr/sr_ws/install/transmission_interface/lib/libtransmission_interface.so
+[2.430s] -- Set runtime path of "/home/sr/sr_ws/install/transmission_interface/lib/libtransmission_interface.so" to ""
+[2.432s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[2.434s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[2.438s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[2.449s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[2.450s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[2.451s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[2.458s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[2.462s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[2.462s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[2.463s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[2.463s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[2.464s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[2.464s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[2.465s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[2.465s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[2.466s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.466s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.467s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.467s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[2.468s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[2.468s] -- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/package.xml
+[2.533s] Invoked command in '/home/sr/sr_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sr/sr_ws/build/transmission_interface

@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description//urdf
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description//urdf/inertial_macros.xacro
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description//urdf/robot_core.urdf.xacro
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description//urdf/robot.urdf.xacro
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description//launch
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description//launch/display.launch.py
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description//launch/display.launch.xml
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description//launch/turn_on_robot.py
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description//rviz
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description//rviz/urdf_config.rviz
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/ament_index/resource_index/package_run_dependencies/sf_robot_description
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/ament_index/resource_index/parent_prefix_path/sf_robot_description
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/environment/ament_prefix_path.sh
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/environment/path.sh
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/environment/path.dsv
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/local_setup.bash
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/local_setup.sh
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/local_setup.zsh
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/local_setup.dsv
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/package.dsv
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/ament_index/resource_index/packages/sf_robot_description
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/cmake/sf_robot_descriptionConfig.cmake
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/cmake/sf_robot_descriptionConfig-version.cmake
+-- Installing: /home/sr/sr_ws/install/sf_robot_description/share/sf_robot_description/package.xml

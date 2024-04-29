@@ -1,0 +1,7 @@
+[0.074s] Invoking command in '/home/sr/sr_ws/build/control_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/control_robot -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/control_robot
+[0.108s] [31mCMake Error at CMakeLists.txt:18 (endif):
+[0.108s]   Flow control statements are not properly nested.
+[0.110s] 
+[0.111s] [0m
+[0.113s] -- Configuring incomplete, errors occurred!
+[0.116s] Invoked command in '/home/sr/sr_ws/build/control_robot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/control_robot -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/control_robot

@@ -1,0 +1,84 @@
+[5.978s] Invoking command in '/home/sr/sr_ws/src/controller_manager/ros2controlcli': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/controller_manager:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/controller_manager:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/sr/sr_ws/install/controller_manager/lib:/home/sr/sr_ws/install/controller_interface/lib:/home/sr/sr_ws/install/hardware_interface/lib:/home/sr/sr_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sr/sr_ws/build/ros2controlcli/prefix_override:/home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/sr/sr_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/sr/sr_ws/build/ros2controlcli/build install --record /home/sr/sr_ws/build/ros2controlcli/install.log --single-version-externally-managed install_data
+[7.379s] running egg_info
+[7.382s] creating ../../../build/ros2controlcli/ros2controlcli.egg-info
+[7.384s] writing ../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+[7.387s] writing dependency_links to ../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+[7.390s] writing entry points to ../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+[7.391s] writing requirements to ../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+[7.392s] writing top-level names to ../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+[7.393s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[7.401s] reading manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[7.406s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[7.407s] running build
+[7.409s] running build_py
+[7.412s] creating /home/sr/sr_ws/build/ros2controlcli/build
+[7.413s] creating /home/sr/sr_ws/build/ros2controlcli/build/lib
+[7.416s] creating /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli
+[7.417s] copying ros2controlcli/__init__.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli
+[7.418s] creating /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[7.420s] copying ros2controlcli/command/control.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[7.422s] copying ros2controlcli/command/__init__.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[7.424s] creating /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.425s] copying ros2controlcli/verb/switch_controllers.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.426s] copying ros2controlcli/verb/unload_controller.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.428s] copying ros2controlcli/verb/reload_controller_libraries.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.428s] copying ros2controlcli/verb/list_controllers.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.429s] copying ros2controlcli/verb/load_controller.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.432s] copying ros2controlcli/verb/set_hardware_component_state.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.433s] copying ros2controlcli/verb/list_hardware_components.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.435s] copying ros2controlcli/verb/__init__.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.436s] copying ros2controlcli/verb/view_controller_chains.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.436s] copying ros2controlcli/verb/list_hardware_interfaces.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.438s] copying ros2controlcli/verb/set_controller_state.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.438s] copying ros2controlcli/verb/list_controller_types.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[7.439s] creating /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+[7.440s] copying ros2controlcli/api/__init__.py -> /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+[7.440s] running install
+[7.441s] running install_lib
+[7.445s] creating /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[7.446s] creating /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[7.447s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/command/control.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[7.448s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/command/__init__.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[7.450s] creating /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.450s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/switch_controllers.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.451s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/unload_controller.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.452s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/reload_controller_libraries.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.455s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controllers.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.457s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/load_controller.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.458s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/set_hardware_component_state.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.459s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_components.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.461s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/__init__.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.463s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/view_controller_chains.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.464s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_interfaces.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.466s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/set_controller_state.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.466s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controller_types.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[7.468s] creating /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[7.468s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/api/__init__.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[7.470s] copying /home/sr/sr_ws/build/ros2controlcli/build/lib/ros2controlcli/__init__.py -> /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[7.470s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/control.py to control.cpython-310.pyc
+[7.473s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/__init__.py to __init__.cpython-310.pyc
+[7.474s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/switch_controllers.py to switch_controllers.cpython-310.pyc
+[7.477s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/unload_controller.py to unload_controller.cpython-310.pyc
+[7.480s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/reload_controller_libraries.py to reload_controller_libraries.cpython-310.pyc
+[7.482s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controllers.py to list_controllers.cpython-310.pyc
+[7.487s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/load_controller.py to load_controller.cpython-310.pyc
+[7.489s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/set_hardware_component_state.py to set_hardware_component_state.cpython-310.pyc
+[7.492s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_components.py to list_hardware_components.cpython-310.pyc
+[7.495s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/__init__.py to __init__.cpython-310.pyc
+[7.497s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/view_controller_chains.py to view_controller_chains.cpython-310.pyc
+[7.503s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_interfaces.py to list_hardware_interfaces.cpython-310.pyc
+[7.507s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/set_controller_state.py to set_controller_state.cpython-310.pyc
+[7.511s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controller_types.py to list_controller_types.cpython-310.pyc
+[7.514s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api/__init__.py to __init__.cpython-310.pyc
+[7.518s] byte-compiling /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/__init__.py to __init__.cpython-310.pyc
+[7.520s] running install_data
+[7.521s] copying package.xml -> /home/sr/sr_ws/install/ros2controlcli/share/ros2controlcli
+[7.523s] creating /home/sr/sr_ws/install/ros2controlcli/share/ament_index
+[7.524s] creating /home/sr/sr_ws/install/ros2controlcli/share/ament_index/resource_index
+[7.524s] creating /home/sr/sr_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[7.525s] copying resource/ros2controlcli -> /home/sr/sr_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[7.526s] running install_egg_info
+[7.535s] Copying ../../../build/ros2controlcli/ros2controlcli.egg-info to /home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-2.40.0-py3.10.egg-info
+[7.543s] running install_scripts
+[7.671s] writing list of installed files to '/home/sr/sr_ws/build/ros2controlcli/install.log'
+[7.821s] Invoked command in '/home/sr/sr_ws/src/controller_manager/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/controller_manager:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/controller_manager:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/sr/sr_ws/install/controller_manager/lib:/home/sr/sr_ws/install/controller_interface/lib:/home/sr/sr_ws/install/hardware_interface/lib:/home/sr/sr_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sr/sr_ws/build/ros2controlcli/prefix_override:/home/sr/sr_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/sr/sr_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/sr/sr_ws/build/ros2controlcli/build install --record /home/sr/sr_ws/build/ros2controlcli/install.log --single-version-externally-managed install_data

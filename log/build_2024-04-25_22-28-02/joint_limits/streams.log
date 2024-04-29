@@ -1,0 +1,45 @@
+[0.098s] Invoking command in '/home/sr/sr_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/controller_manager/joint_limits -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/joint_limits
+[0.761s] -- The C compiler identification is GNU 11.4.0
+[1.362s] -- The CXX compiler identification is GNU 11.4.0
+[1.419s] -- Detecting C compiler ABI info
+[1.871s] -- Detecting C compiler ABI info - done
+[1.902s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.905s] -- Detecting C compile features
+[1.907s] -- Detecting C compile features - done
+[1.924s] -- Detecting CXX compiler ABI info
+[2.370s] -- Detecting CXX compiler ABI info - done
+[2.402s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.404s] -- Detecting CXX compile features
+[2.407s] -- Detecting CXX compile features - done
+[2.444s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.555s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.673s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[5.156s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.217s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.303s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.584s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.173s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.216s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.059s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.390s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.951s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.274s] -- Looking for pthread.h
+[8.685s] -- Looking for pthread.h - found
+[8.687s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.102s] -- Found Threads: TRUE  
+[10.070s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[10.359s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[10.387s] -- Found launch_testing_ament_cmake: 1.0.5 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[10.415s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.540s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.568s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.569s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.570s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.571s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[10.700s] -- Found PythonExtra: .so  
+[10.733s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.130s] -- Configuring done
+[11.222s] -- Generating done
+[11.232s] -- Build files have been written to: /home/sr/sr_ws/build/joint_limits

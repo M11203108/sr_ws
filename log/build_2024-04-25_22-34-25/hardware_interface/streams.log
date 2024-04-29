@@ -1,0 +1,147 @@
+[0.057s] Invoking command in '/home/sr/sr_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/controller_manager/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/hardware_interface
+[0.116s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.858s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.308s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.371s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.454s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.729s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.979s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[5.130s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[5.687s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.419s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.489s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.125s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.761s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.795s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[8.015s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.117s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[8.187s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[8.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.539s] -- Looking for pthread.h
+[9.395s] -- Looking for pthread.h - found
+[9.398s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.925s] -- Found Threads: TRUE  
+[10.836s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.878s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[10.884s] -- Found ros2_control_test_assets: 2.40.0 (/home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[10.925s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[10.987s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[10.993s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.469s] -- Configuring done
+[11.886s] -- Generating done
+[11.907s] -- Build files have been written to: /home/sr/sr_ws/build/hardware_interface
+[11.998s] Invoked command in '/home/sr/sr_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/controller_manager/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/hardware_interface
+[12.001s] Invoking command in '/home/sr/sr_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:/opt/ros/humble /usr/bin/cmake --build /home/sr/sr_ws/build/hardware_interface -- -j4 -l4
+[12.443s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[12.470s] [  5%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/actuator.cpp.o[0m
+[12.491s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[12.502s] [ 11%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/component_parser.cpp.o[0m
+[27.696s] [ 14%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o[0m
+[36.418s] [ 17%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[36.795s] [ 17%] Built target gmock_main
+[36.877s] [ 20%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/sensor.cpp.o[0m
+[59.985s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[83.339s] [ 26%] [32m[1mLinking CXX static library libgmock.a[0m
+[84.308s] [ 26%] Built target gmock
+[86.691s] [ 29%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/lexical_casts.cpp.o[0m
+[90.042s] [ 32%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/system.cpp.o[0m
+[95.413s] [ 35%] [32m[1mLinking CXX shared library libhardware_interface.so[0m
+[97.599s] [ 35%] Built target hardware_interface
+[97.717s] [ 38%] [32mBuilding CXX object CMakeFiles/test_macros.dir/test/test_macros.cpp.o[0m
+[106.285s] [ 41%] [32m[1mLinking CXX executable test_macros[0m
+[107.036s] [ 41%] Built target test_macros
+[107.141s] [ 44%] [32mBuilding CXX object CMakeFiles/test_inst_hardwares.dir/test/test_inst_hardwares.cpp.o[0m
+[116.740s] [ 47%] [32m[1mLinking CXX executable test_inst_hardwares[0m
+[117.989s] [ 47%] Built target test_inst_hardwares
+[118.093s] [ 50%] [32mBuilding CXX object CMakeFiles/test_joint_handle.dir/test/test_handle.cpp.o[0m
+[126.632s] [ 52%] [32m[1mLinking CXX executable test_joint_handle[0m
+[127.936s] [ 52%] Built target test_joint_handle
+[128.033s] [ 55%] [32mBuilding CXX object CMakeFiles/test_component_interfaces.dir/test/test_component_interfaces.cpp.o[0m
+[142.913s] [ 58%] [32m[1mLinking CXX executable test_component_interfaces[0m
+[143.135s] [ 61%] [32mBuilding CXX object CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o[0m
+[144.387s] [ 64%] [32mBuilding CXX object CMakeFiles/fake_components.dir/src/mock_components/generic_system.cpp.o[0m
+[144.535s] [ 67%] [32mBuilding CXX object CMakeFiles/mock_components.dir/src/mock_components/generic_system.cpp.o[0m
+[146.181s] [ 67%] Built target test_component_interfaces
+[146.476s] [ 70%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_single_joint_actuator.cpp.o[0m
+[159.468s] [ 73%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_force_torque_sensor.cpp.o[0m
+[161.630s] [ 76%] [32mBuilding CXX object CMakeFiles/fake_components.dir/src/mock_components/fake_generic_system.cpp.o[0m
+[162.168s] [ 79%] [32m[1mLinking CXX shared library libmock_components.so[0m
+[164.502s] [ 79%] Built target mock_components
+[170.294s] [ 82%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_joint_system.cpp.o[0m
+[171.424s] [ 85%] [32m[1mLinking CXX shared library libfake_components.so[0m
+[173.340s] [ 85%] Built target fake_components
+[173.666s] [ 88%] [32m[1mLinking CXX executable test_component_parser[0m
+[176.193s] [ 88%] Built target test_component_parser
+[178.964s] [ 91%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_system_with_command_modes.cpp.o[0m
+[186.443s] [ 94%] [32m[1mLinking CXX shared library libtest_hardware_components.so[0m
+[187.394s] [ 94%] Built target test_hardware_components
+[187.498s] [ 97%] [32mBuilding CXX object CMakeFiles/test_generic_system.dir/test/mock_components/test_generic_system.cpp.o[0m
+[204.243s] [100%] [32m[1mLinking CXX executable test_generic_system[0m
+[206.155s] [100%] Built target test_generic_system
+[206.204s] Invoked command in '/home/sr/sr_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:/opt/ros/humble /usr/bin/cmake --build /home/sr/sr_ws/build/hardware_interface -- -j4 -l4
+[206.674s] Invoking command in '/home/sr/sr_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:/opt/ros/humble /usr/bin/cmake --install /home/sr/sr_ws/build/hardware_interface
+[206.706s] -- Install configuration: ""
+[206.707s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/mock_components_plugin_description.xml
+[206.709s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/fake_components_plugin_description.xml
+[206.711s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include
+[206.712s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface
+[206.713s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+[206.714s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+[206.715s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+[206.716s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+[206.718s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+[206.719s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/lexical_casts.hpp
+[206.720s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/system.hpp
+[206.721s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp
+[206.722s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/types
+[206.723s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+[206.724s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+[206.726s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp
+[206.727s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+[206.728s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+[206.730s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/actuator.hpp
+[206.731s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/hardware_component_info.hpp
+[206.732s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+[206.733s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+[206.735s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+[206.736s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp
+[206.737s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/hardware_interface/sensor.hpp
+[206.738s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/mock_components
+[206.739s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/mock_components/visibility_control.h
+[206.741s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/mock_components/generic_system.hpp
+[206.742s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/fake_components
+[206.743s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/fake_components/visibility_control.h
+[206.744s] -- Installing: /home/sr/sr_ws/install/hardware_interface/include/fake_components/generic_system.hpp
+[206.746s] -- Installing: /home/sr/sr_ws/install/hardware_interface/lib/libfake_components.so
+[206.756s] -- Set runtime path of "/home/sr/sr_ws/install/hardware_interface/lib/libfake_components.so" to ""
+[206.757s] -- Installing: /home/sr/sr_ws/install/hardware_interface/lib/libmock_components.so
+[206.766s] -- Set runtime path of "/home/sr/sr_ws/install/hardware_interface/lib/libmock_components.so" to ""
+[206.767s] -- Installing: /home/sr/sr_ws/install/hardware_interface/lib/libhardware_interface.so
+[206.796s] -- Set runtime path of "/home/sr/sr_ws/install/hardware_interface/lib/libhardware_interface.so" to ""
+[206.797s] -- Installing: /home/sr/sr_ws/install/hardware_interface/lib/libtest_hardware_components.so
+[206.805s] -- Set runtime path of "/home/sr/sr_ws/install/hardware_interface/lib/libtest_hardware_components.so" to ""
+[206.806s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[206.809s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[206.810s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[206.812s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[206.815s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[206.817s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[206.818s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[206.820s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/environment/path.sh
+[206.822s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[206.824s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+[206.825s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+[206.828s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[206.830s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[206.833s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/package.dsv
+[206.835s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[206.837s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[206.840s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[206.842s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[206.844s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[206.847s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[206.849s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[206.851s] -- Installing: /home/sr/sr_ws/install/hardware_interface/share/hardware_interface/package.xml
+[206.863s] Invoked command in '/home/sr/sr_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/ros2_control_test_assets:/opt/ros/humble /usr/bin/cmake --install /home/sr/sr_ws/build/hardware_interface

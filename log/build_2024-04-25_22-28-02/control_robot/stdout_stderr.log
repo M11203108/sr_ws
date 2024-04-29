@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot//launch
+-- Installing: /home/sr/sr_ws/install/control_robot/share/control_robot//launch/display.launch.py
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot//launch/glovar.py
+-- Installing: /home/sr/sr_ws/install/control_robot/share/control_robot//launch/turn_on_robot.launch.py
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot//launch/keyboard_robot_node.py
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/ament_index/resource_index/package_run_dependencies/control_robot
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/ament_index/resource_index/parent_prefix_path/control_robot
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/environment/path.sh
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/environment/path.dsv
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/local_setup.bash
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/local_setup.sh
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/local_setup.zsh
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/local_setup.dsv
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/package.dsv
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/ament_index/resource_index/packages/control_robot
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/cmake/control_robotConfig.cmake
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/cmake/control_robotConfig-version.cmake
+-- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/package.xml

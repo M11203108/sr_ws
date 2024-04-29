@@ -1,0 +1,119 @@
+[0.098s] Invoking command in '/home/sr/sr_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface_testing/lib:/home/sr/sr_ws/install/controller_interface/lib:/home/sr/sr_ws/install/hardware_interface/lib:/home/sr/sr_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sr/sr_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sr/sr_ws/build/controller_manager -- -j4 -l4
+[0.338s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target controller_manager[0m
+[0.350s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.435s] [  5%] Built target gmock_main
+[0.474s] [ 14%] Built target gmock
+[0.493s] [ 14%] Built target ament_cmake_python_copy_controller_manager_setup
+[0.535s] [ 20%] Built target controller_manager
+[0.600s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_node[0m
+[0.613s] [ 20%] Built target ament_cmake_python_copy_controller_manager
+[0.614s] [35m[1mConsolidate compiler generated dependencies of target test_controller[0m
+[0.661s] [35m[1mConsolidate compiler generated dependencies of target test_controller_failed_init[0m
+[0.752s] [ 25%] Built target test_controller
+[0.759s] [35m[1mConsolidate compiler generated dependencies of target test_chainable_controller[0m
+[0.771s] [ 31%] Built target ros2_control_node
+[0.837s] [ 37%] Built target test_controller_failed_init
+[0.844s] [35m[1mConsolidate compiler generated dependencies of target test_controller_manager_urdf_passing[0m
+[0.862s] [35m[1mConsolidate compiler generated dependencies of target test_controller_with_interfaces[0m
+[0.931s] [35m[1mConsolidate compiler generated dependencies of target test_spawner_unspawner[0m
+[0.962s] [ 42%] Built target test_chainable_controller
+[1.015s] [ 48%] Built target test_controller_manager_urdf_passing
+[1.051s] [ 54%] Built target test_controller_with_interfaces
+[1.052s] [35m[1mConsolidate compiler generated dependencies of target test_hardware_management_srvs[0m
+[1.100s] [ 60%] Built target test_spawner_unspawner
+[1.186s] [35m[1mConsolidate compiler generated dependencies of target test_controller_manager[0m
+[1.276s] [ 65%] Built target test_hardware_management_srvs
+[1.414s] [35m[1mConsolidate compiler generated dependencies of target test_controller_manager_with_namespace.cpp[0m
+[1.444s] [ 71%] Built target test_controller_manager
+[1.579s] [ 77%] Built target test_controller_manager_with_namespace.cpp
+[1.598s] [35m[1mConsolidate compiler generated dependencies of target test_load_controller[0m
+[1.647s] [35m[1mConsolidate compiler generated dependencies of target test_controllers_chaining_with_controller_manager[0m
+[1.900s] [ 82%] Built target test_load_controller
+[1.972s] [ 88%] Built target test_controllers_chaining_with_controller_manager
+[2.021s] [35m[1mConsolidate compiler generated dependencies of target test_controller_manager_srvs[0m
+[2.102s] [35m[1mConsolidate compiler generated dependencies of target test_release_interfaces[0m
+[2.243s] [ 94%] Built target test_controller_manager_srvs
+[2.292s] [100%] Built target test_release_interfaces
+[2.835s] running egg_info
+[2.839s] writing controller_manager.egg-info/PKG-INFO
+[2.841s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[2.842s] writing entry points to controller_manager.egg-info/entry_points.txt
+[2.843s] writing top-level names to controller_manager.egg-info/top_level.txt
+[2.855s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.859s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.880s] running install_scripts
+[2.900s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.901s]   warnings.warn(
+[3.019s] [100%] Built target ament_cmake_python_build_controller_manager_egg
+[3.028s] running egg_info
+[3.032s] writing controller_manager.egg-info/PKG-INFO
+[3.033s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[3.034s] writing entry points to controller_manager.egg-info/entry_points.txt
+[3.036s] writing top-level names to controller_manager.egg-info/top_level.txt
+[3.044s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[3.048s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[3.055s] Installing hardware_spawner script to scripts
+[3.057s] Installing spawner script to scripts
+[3.057s] Installing unspawner script to scripts
+[3.221s] [100%] Built target ament_cmake_python_build_controller_manager_scripts
+[3.275s] Invoked command in '/home/sr/sr_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface_testing/lib:/home/sr/sr_ws/install/controller_interface/lib:/home/sr/sr_ws/install/hardware_interface/lib:/home/sr/sr_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sr/sr_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sr/sr_ws/build/controller_manager -- -j4 -l4
+[3.755s] Invoking command in '/home/sr/sr_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface_testing/lib:/home/sr/sr_ws/install/controller_interface/lib:/home/sr/sr_ws/install/hardware_interface/lib:/home/sr/sr_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sr/sr_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sr/sr_ws/build/controller_manager
+[3.791s] -- Install configuration: ""
+[3.793s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/lib/libcontroller_manager.so
+[3.795s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[3.797s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/include
+[3.797s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/include/controller_manager
+[3.798s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[3.798s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[3.799s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[3.799s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[3.800s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/lib/libtest_controller.so
+[3.801s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[3.803s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[3.805s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[3.806s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/lib/libtest_chainable_controller.so
+[3.808s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[3.809s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[3.811s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[3.811s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[3.812s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info
+[3.812s] -- Installing: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/dependency_links.txt
+[3.814s] -- Installing: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/top_level.txt
+[3.815s] -- Installing: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/entry_points.txt
+[3.816s] -- Installing: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/SOURCES.txt
+[3.818s] -- Installing: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/PKG-INFO
+[3.819s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/lib/controller_manager/
+[3.820s] -- Installing: /home/sr/sr_ws/install/controller_manager/lib/controller_manager//hardware_spawner
+[3.821s] -- Installing: /home/sr/sr_ws/install/controller_manager/lib/controller_manager//spawner
+[3.823s] -- Installing: /home/sr/sr_ws/install/controller_manager/lib/controller_manager//unspawner
+[3.824s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager
+[3.825s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+[3.825s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+[3.826s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+[3.826s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+[3.827s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py
+[3.827s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+[3.982s] Listing '/home/sr/sr_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
+[4.004s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[4.005s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[4.005s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[4.006s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[4.006s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[4.007s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[4.008s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[4.008s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[4.008s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[4.009s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[4.009s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[4.010s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[4.010s] -- Installing: /home/sr/sr_ws/install/controller_manager/share/controller_manager/package.dsv
+[4.011s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[4.011s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[4.012s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[4.012s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.013s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.013s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[4.014s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[4.014s] -- Up-to-date: /home/sr/sr_ws/install/controller_manager/share/controller_manager/package.xml
+[4.023s] Invoked command in '/home/sr/sr_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface_testing/lib:/home/sr/sr_ws/install/controller_interface/lib:/home/sr/sr_ws/install/hardware_interface/lib:/home/sr/sr_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sr/sr_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sr/sr_ws/build/controller_manager

@@ -1,0 +1,53 @@
+[0.209s] Invoking command in '/home/sr/sr_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface_testing/lib:/home/sr/sr_ws/install/controller_interface/lib:/home/sr/sr_ws/install/hardware_interface/lib:/home/sr/sr_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sr/sr_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sr/sr_ws/src/controller_manager/controller_manager -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/controller_manager
+[0.259s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.925s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.038s] -- Found libdw: /usr/lib/aarch64-linux-gnu/libdw.so  
+[1.096s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.096s] -- BACKWARD_HAS_UNWIND=1
+[1.097s] -- BACKWARD_HAS_BACKTRACE=0
+[1.097s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.097s] -- BACKWARD_HAS_DW=1
+[1.098s] -- BACKWARD_HAS_BFD=0
+[1.099s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.133s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.140s] -- Found controller_interface: 2.40.0 (/home/sr/sr_ws/install/controller_interface/share/controller_interface/cmake)
+[1.564s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.638s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.728s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.844s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.015s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.752s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.794s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.102s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.403s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.415s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.464s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.508s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.546s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.589s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.720s] -- Looking for pthread.h
+[8.236s] -- Looking for pthread.h - found
+[8.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.745s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.752s] -- Found Threads: TRUE  
+[10.047s] -- Found controller_manager_msgs: 2.40.0 (/home/sr/sr_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[10.494s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[10.495s]   By not providing "Findrealtime_tools.cmake" in CMAKE_MODULE_PATH this
+[10.495s]   project has asked CMake to find a package configuration file provided by
+[10.496s]   "realtime_tools", but CMake did not find one.
+[10.496s] 
+[10.497s]   Could not find a package configuration file provided by "realtime_tools"
+[10.497s]   with any of the following names:
+[10.497s] 
+[10.498s]     realtime_toolsConfig.cmake
+[10.498s]     realtime_tools-config.cmake
+[10.499s] 
+[10.499s]   Add the installation prefix of "realtime_tools" to CMAKE_PREFIX_PATH or set
+[10.500s]   "realtime_tools_DIR" to a directory containing one of the above files.  If
+[10.501s]   "realtime_tools" provides a separate development package or SDK, be sure it
+[10.514s]   has been installed.
+[10.516s] 
+[10.517s] [0m
+[10.518s] -- Configuring incomplete, errors occurred!
+[10.519s] See also "/home/sr/sr_ws/build/controller_manager/CMakeFiles/CMakeOutput.log".
+[10.532s] Invoked command in '/home/sr/sr_ws/build/controller_manager' returned '1': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface_testing:/home/sr/sr_ws/install/controller_interface:/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/home/sr/sr_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface_testing/lib:/home/sr/sr_ws/install/controller_interface/lib:/home/sr/sr_ws/install/hardware_interface/lib:/home/sr/sr_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sr/sr_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sr/sr_ws/src/controller_manager/controller_manager -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/controller_manager

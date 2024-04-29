@@ -1,0 +1,59 @@
+[0.120s] Invoking command in '/home/sr/sr_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sr/sr_ws/build/joint_limits -- -j4 -l4
+[0.248s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.186s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.427s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.442s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.476s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.957s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.971s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.265s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.053s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.285s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.291s] -- Found launch_testing_ament_cmake: 1.0.5 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[4.296s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.442s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.445s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.448s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.453s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.870s] -- Configuring done
+[4.974s] -- Generating done
+[4.982s] -- Build files have been written to: /home/sr/sr_ws/build/joint_limits
+[5.175s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.186s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.164s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.552s] [ 50%] Built target gtest_main
+[41.849s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[43.182s] [ 66%] Built target gtest
+[43.484s] [ 83%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[91.398s] [100%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[93.011s] [100%] Built target joint_limits_rosparam_test
+[93.086s] Invoked command in '/home/sr/sr_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sr/sr_ws/build/joint_limits -- -j4 -l4
+[93.276s] Invoking command in '/home/sr/sr_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sr/sr_ws/build/joint_limits
+[93.330s] -- Install configuration: ""
+[93.334s] -- Installing: /home/sr/sr_ws/install/joint_limits/include
+[93.345s] -- Installing: /home/sr/sr_ws/install/joint_limits/include/joint_limits
+[93.351s] -- Installing: /home/sr/sr_ws/install/joint_limits/include/joint_limits/joint_limits.hpp
+[93.357s] -- Installing: /home/sr/sr_ws/install/joint_limits/include/joint_limits/joint_limits_rosparam.hpp
+[93.360s] -- Installing: /home/sr/sr_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[93.371s] -- Set runtime path of "/home/sr/sr_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test" to ""
+[93.374s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[93.383s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[93.394s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[93.403s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[93.406s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[93.410s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/environment/path.sh
+[93.413s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+[93.417s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/local_setup.bash
+[93.425s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/local_setup.sh
+[93.432s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+[93.433s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+[93.436s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/package.dsv
+[93.440s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[93.447s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[93.450s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_include_directories-extras.cmake
+[93.454s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[93.457s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[93.461s] -- Installing: /home/sr/sr_ws/install/joint_limits/share/joint_limits/package.xml
+[93.479s] Invoked command in '/home/sr/sr_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sr/sr_ws/build/joint_limits

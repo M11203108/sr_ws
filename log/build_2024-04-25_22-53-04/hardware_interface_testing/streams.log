@@ -1,0 +1,29 @@
+[0.103s] Invoking command in '/home/sr/sr_ws/build/hardware_interface_testing': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sr/sr_ws/build/hardware_interface_testing -- -j4 -l4
+[0.574s] [ 30%] Built target test_components
+[0.585s] [ 46%] Built target gmock_main
+[0.615s] [ 69%] Built target gmock
+[0.923s] [ 84%] Built target test_resource_manager
+[1.030s] [100%] Built target test_resource_manager_prepare_perform_switch
+[1.142s] Invoked command in '/home/sr/sr_ws/build/hardware_interface_testing' returned '0': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sr/sr_ws/build/hardware_interface_testing -- -j4 -l4
+[1.477s] Invoking command in '/home/sr/sr_ws/build/hardware_interface_testing': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sr/sr_ws/build/hardware_interface_testing
+[1.553s] -- Install configuration: ""
+[1.679s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/lib/libtest_components.so
+[1.798s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/test/test_components/test_components.xml
+[1.999s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/ament_index/resource_index/package_run_dependencies/hardware_interface_testing
+[2.046s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/ament_index/resource_index/parent_prefix_path/hardware_interface_testing
+[2.081s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/ament_prefix_path.sh
+[2.084s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/ament_prefix_path.dsv
+[2.086s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/path.sh
+[2.088s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/path.dsv
+[2.088s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.bash
+[2.089s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.sh
+[2.089s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.zsh
+[2.090s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.dsv
+[2.090s] -- Installing: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/package.dsv
+[2.180s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/ament_index/resource_index/packages/hardware_interface_testing
+[2.208s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface_testing
+[2.210s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.211s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/cmake/hardware_interface_testingConfig.cmake
+[2.216s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/cmake/hardware_interface_testingConfig-version.cmake
+[2.217s] -- Up-to-date: /home/sr/sr_ws/install/hardware_interface_testing/share/hardware_interface_testing/package.xml
+[2.393s] Invoked command in '/home/sr/sr_ws/build/hardware_interface_testing' returned '0': AMENT_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sr/sr_ws/install/hardware_interface:/home/sr/sr_ws/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/sr/sr_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sr/sr_ws/build/hardware_interface_testing

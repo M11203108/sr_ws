@@ -1,0 +1,19 @@
+{
+  "package_name": "controller_manager_msgs",
+  "non_idl_tuples": [
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:msg/ControllerState.msg",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:msg/ChainConnection.msg",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:msg/HardwareComponentState.msg",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:msg/HardwareInterface.msg",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:srv/ConfigureController.srv",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:srv/ListControllers.srv",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:srv/ListControllerTypes.srv",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:srv/ListHardwareComponents.srv",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:srv/ListHardwareInterfaces.srv",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:srv/LoadController.srv",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:srv/ReloadControllerLibraries.srv",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:srv/SetHardwareComponentState.srv",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:srv/SwitchController.srv",
+    "/home/sr/sr_ws/src/controller_manager/controller_manager_msgs:srv/UnloadController.srv"
+  ]
+}

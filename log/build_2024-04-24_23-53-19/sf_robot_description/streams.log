@@ -1,0 +1,18 @@
+[0.059s] Invoking command in '/home/sr/sr_ws/build/sf_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/sf_robot_description -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/sf_robot_description
+[0.347s] -- The C compiler identification is GNU 11.4.0
+[0.635s] -- The CXX compiler identification is GNU 11.4.0
+[0.671s] -- Detecting C compiler ABI info
+[1.026s] -- Detecting C compiler ABI info - done
+[1.058s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.059s] -- Detecting C compile features
+[1.060s] -- Detecting C compile features - done
+[1.073s] -- Detecting CXX compiler ABI info
+[1.467s] -- Detecting CXX compiler ABI info - done
+[1.498s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.499s] -- Detecting CXX compile features
+[1.501s] -- Detecting CXX compile features - done
+[1.532s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.356s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.323s] -- Configuring done
+[3.343s] -- Generating done
+[3.347s] -- Build files have been written to: /home/sr/sr_ws/build/sf_robot_description

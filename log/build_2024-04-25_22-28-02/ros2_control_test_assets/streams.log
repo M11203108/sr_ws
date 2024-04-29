@@ -1,0 +1,44 @@
+[0.119s] Invoking command in '/home/sr/sr_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/controller_manager/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/ros2_control_test_assets
+[0.826s] -- The C compiler identification is GNU 11.4.0
+[1.419s] -- The CXX compiler identification is GNU 11.4.0
+[1.478s] -- Detecting C compiler ABI info
+[1.940s] -- Detecting C compiler ABI info - done
+[1.971s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.972s] -- Detecting C compile features
+[1.975s] -- Detecting C compile features - done
+[1.988s] -- Detecting CXX compiler ABI info
+[2.433s] -- Detecting CXX compiler ABI info - done
+[2.466s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.468s] -- Detecting CXX compile features
+[2.469s] -- Detecting CXX compile features - done
+[2.502s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.596s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.067s] -- Configuring done
+[5.096s] -- Generating done
+[5.101s] -- Build files have been written to: /home/sr/sr_ws/build/ros2_control_test_assets
+[5.118s] Invoked command in '/home/sr/sr_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/controller_manager/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/ros2_control_test_assets
+[5.129s] Invoking command in '/home/sr/sr_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sr/sr_ws/build/ros2_control_test_assets -- -j4 -l4
+[5.310s] Invoked command in '/home/sr/sr_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sr/sr_ws/build/ros2_control_test_assets -- -j4 -l4
+[5.453s] Invoking command in '/home/sr/sr_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sr/sr_ws/build/ros2_control_test_assets
+[5.483s] -- Install configuration: ""
+[5.484s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/include
+[5.485s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/include/ros2_control_test_assets
+[5.485s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[5.485s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[5.488s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[5.490s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[5.492s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[5.493s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[5.495s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[5.497s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[5.499s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[5.500s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[5.502s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[5.503s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[5.504s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[5.506s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[5.508s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.509s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[5.511s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[5.514s] -- Installing: /home/sr/sr_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[5.523s] Invoked command in '/home/sr/sr_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sr/sr_ws/build/ros2_control_test_assets

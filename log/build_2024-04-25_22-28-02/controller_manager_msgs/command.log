@@ -1,0 +1,1 @@
+Invoking command in '/home/sr/sr_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/controller_manager/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/controller_manager_msgs

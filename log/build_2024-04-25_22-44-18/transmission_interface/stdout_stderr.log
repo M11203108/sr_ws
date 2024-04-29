@@ -1,0 +1,60 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target transmission_interface[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[ 13%] Built target gmock
+[ 21%] Built target gmock_main
+[ 39%] Built target transmission_interface
+[35m[1mConsolidate compiler generated dependencies of target test_four_bar_linkage_transmission[0m
+[35m[1mConsolidate compiler generated dependencies of target test_differential_transmission[0m
+[35m[1mConsolidate compiler generated dependencies of target test_simple_transmission[0m
+[35m[1mConsolidate compiler generated dependencies of target test_simple_transmission_loader[0m
+[ 47%] Built target test_differential_transmission
+[ 56%] Built target test_simple_transmission
+[ 65%] Built target test_four_bar_linkage_transmission
+[35m[1mConsolidate compiler generated dependencies of target test_four_bar_linkage_transmission_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target test_differential_transmission_loader[0m
+[ 73%] Built target test_simple_transmission_loader
+[35m[1mConsolidate compiler generated dependencies of target test_utils[0m
+[ 82%] Built target test_four_bar_linkage_transmission_loader
+[ 91%] Built target test_differential_transmission_loader
+[100%] Built target test_utils
+-- Install configuration: ""
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/ros2_control_plugins.xml
+-- Installing: /home/sr/sr_ws/install/transmission_interface/lib/libtransmission_interface.so
+-- Set runtime path of "/home/sr/sr_ws/install/transmission_interface/lib/libtransmission_interface.so" to ""
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/package.dsv
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+-- Installing: /home/sr/sr_ws/install/transmission_interface/share/transmission_interface/package.xml

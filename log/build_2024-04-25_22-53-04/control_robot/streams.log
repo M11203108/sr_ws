@@ -1,0 +1,25 @@
+[0.130s] Invoking command in '/home/sr/sr_ws/build/control_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sr/sr_ws/build/control_robot -- -j4 -l4
+[0.348s] Invoked command in '/home/sr/sr_ws/build/control_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sr/sr_ws/build/control_robot -- -j4 -l4
+[0.833s] Invoking command in '/home/sr/sr_ws/build/control_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sr/sr_ws/build/control_robot
+[0.886s] -- Install configuration: ""
+[0.889s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot//launch
+[0.892s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot//launch/display.launch.py
+[0.893s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot//launch/glovar.py
+[0.894s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot//launch/turn_on_robot.launch.py
+[0.894s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot//launch/keyboard_robot_node.py
+[0.901s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/ament_index/resource_index/package_run_dependencies/control_robot
+[0.902s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/ament_index/resource_index/parent_prefix_path/control_robot
+[0.903s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/environment/ament_prefix_path.sh
+[0.904s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/environment/ament_prefix_path.dsv
+[0.906s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/environment/path.sh
+[0.907s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/environment/path.dsv
+[0.907s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/local_setup.bash
+[0.908s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/local_setup.sh
+[0.908s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/local_setup.zsh
+[0.909s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/local_setup.dsv
+[0.909s] -- Installing: /home/sr/sr_ws/install/control_robot/share/control_robot/package.dsv
+[0.918s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/ament_index/resource_index/packages/control_robot
+[0.922s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/cmake/control_robotConfig.cmake
+[0.924s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/cmake/control_robotConfig-version.cmake
+[0.927s] -- Up-to-date: /home/sr/sr_ws/install/control_robot/share/control_robot/package.xml
+[0.945s] Invoked command in '/home/sr/sr_ws/build/control_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sr/sr_ws/build/control_robot

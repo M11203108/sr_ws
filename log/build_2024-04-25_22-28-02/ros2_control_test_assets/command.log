@@ -1,0 +1,6 @@
+Invoking command in '/home/sr/sr_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/controller_manager/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/ros2_control_test_assets
+Invoked command in '/home/sr/sr_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/controller_manager/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/ros2_control_test_assets
+Invoking command in '/home/sr/sr_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sr/sr_ws/build/ros2_control_test_assets -- -j4 -l4
+Invoked command in '/home/sr/sr_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sr/sr_ws/build/ros2_control_test_assets -- -j4 -l4
+Invoking command in '/home/sr/sr_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sr/sr_ws/build/ros2_control_test_assets
+Invoked command in '/home/sr/sr_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sr/sr_ws/build/ros2_control_test_assets

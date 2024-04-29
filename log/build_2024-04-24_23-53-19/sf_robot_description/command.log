@@ -1,0 +1,1 @@
+Invoking command in '/home/sr/sr_ws/build/sf_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sr/sr_ws/src/sf_robot_description -DCMAKE_INSTALL_PREFIX=/home/sr/sr_ws/install/sf_robot_description
